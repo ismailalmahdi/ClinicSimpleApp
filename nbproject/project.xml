@@ -6,7 +6,10 @@
             <name>ClinicProject1</name>
         </data>
         <spellchecker-wordlist xmlns="http://www.netbeans.org/ns/spellchecker-wordlist/1">
+            <word>css</word>
+            <word>dvi</word>
             <word>php</word>
+            <word>td</word>
         </spellchecker-wordlist>
     </configuration>
 </project>

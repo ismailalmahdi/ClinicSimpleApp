@@ -1,0 +1,445 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 17, 2017, 9:26:52 PM
+    Author     : ismailalmahdi
+*/
+
+/*reset*/
+*,*:after,*:before {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/*body style*/
+
+body{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #444;
+    font: 100%/30px 'Helvetica Neue', helvetica, arial, sans-serif !important;
+    text-shadow: 0 1px 0 #fff;
+}
+strong {
+    font-weight: bold; 
+}
+
+em {
+    font-style: italic; 
+}
+/* header style */ 
+#header {
+    background: #fff;
+    width: 100%;
+    display: block;
+
+
+
+}
+#header input {
+    border-radius: 100px;
+    border: none;
+    background: none;
+    color: #000;
+    cursor: pointer;
+    font-size: 1.5em;
+    padding: 20px;
+    width:17%;
+    margin: 10px 7.5%;
+    text-decoration-style: none;
+    transition: all .5s;
+}
+
+
+#header input.selected {
+    color: white;
+    background-color: black; 
+}
+#header input:hover {
+    color: lightblue;
+}
+#header input:focus {
+    border: none;
+}
+#header img {
+    transition: margin-right 0.6s;
+    margin-left: 39%;
+    width: 20%;
+}
+#header nav {
+    width: 70%;
+    margin-left: 15%;
+}
+
+
+/*content style*/
+#content{
+    background-color:#fff;
+    width: 100%;
+    position: relative;
+
+}
+
+/*footer style*/
+#footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: #000;
+    color:#fff;
+    padding: 20px;
+    font-size: 0.7em;
+    text-align: center;
+    height: 100px; 
+    overflow: hidden;
+    clear: both;
+}
+
+
+/* login form */
+#loginPage {
+    width: 30%;
+    padding-top: 50px ;
+
+    text-align: center;
+    margin-left: 35%; 
+
+}
+
+#loginPage input{
+    padding: 20px;
+    width: 90%;
+    margin: 10px;
+    font-size: 1.1em;
+    border: 1px solid #000;
+    transition: all .5s;
+}
+
+#loginPage input.button{
+    cursor: pointer;
+    background-color: #000; 
+    color: #fff;
+    border-radius: 100px;
+    transition: all .5s;
+}
+
+#loginPage input.button:hover{
+    opacity: 0.5;
+}
+
+#aboutPage , #homePage{
+
+    padding: 100px;
+
+}
+#aboutPage p, #homePage p {
+    padding :40px;
+    /*transition: all 2s;*/
+}
+#aboutPage h1 ,#homePage h1 {
+    padding: 20px;
+    font-size: 2em;
+    transition: all 1s;
+}
+#aboutPage table {
+    transition: all 1s;
+    text-align: center;
+    width: 100%;
+    margin: 20px;
+}
+#aboutPage table tr td{
+
+
+    padding:20px;
+}
+
+#aboutPage table tr td img{
+    transition: all 1s;
+    width: 40%;
+}
+
+/*error style*/ 
+.error {
+    border: 4px solid red;
+    background-color:#ff9999;
+    color: #ffffff;
+    padding: 5px;
+    text-align: center;
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 15%;
+
+}
+.error li {
+    padding: 5px;
+}
+
+.message{
+    border: 4px solid green;
+    background-color:#009900;
+    color: #ffffff;
+    padding: 5px;
+    text-align: center;
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 15%;
+}
+
+
+.low_sugar_level{
+    width: 50px;
+    padding: 20px;
+    background-color: #99ff99;
+}
+
+.med_sugar_level{
+    width: 100px;
+    padding: 20px;
+    background-color: #ffff33;
+}
+.high_sugar_level{
+    width: 150px;
+    padding: 20px;
+    background-color: #cc0000;
+}
+.v_high_sugar_level{
+    width: 190px;
+    padding: 20px;
+    background-color: #cc00cc;
+}
+
+.small_logo{
+    width:100%;
+    padding:30px;
+}
+
+.sidebar {
+    z-index: 10000;
+    float: left; 
+    width:20%;
+    position: relative;
+    height: 100%;
+    padding: 20px;
+    border-right: 5px solid #000;
+
+}
+.sidebar ul {
+    list-style: none;
+    text-align: center;
+}
+.sidebar li {
+    padding: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    transition: 0.2s all;
+}
+
+.sidebar a:hover {
+    color: #ccccff;
+
+}
+#main{
+    position: relative;
+    width: 80%;
+    height: 100%;
+    overflow: scroll;
+    padding:20px;
+    padding-bottom: 300px;
+}
+#page{
+    position: relative;
+    float: left;
+    padding: 30px;
+    padding-left:150px;
+    width: 80%;
+}
+#navigation {
+
+    position: relative;
+    width:100%;
+    text-align: left;
+    padding:10px;
+
+}
+#navigation a {
+    padding: 20px;
+    text-decoration:  none;
+    color: red;   
+    font-size: 5em;
+    margin-left: 10%;
+}
+#navigation h2 {
+
+    font-size: 2.3em;
+    text-align: center;
+}
+
+
+
+/*table stlye*/ 
+
+
+table {
+    background: #f5f5f5;
+    border-collapse: separate;
+    box-shadow: 0px 0px 1px rgb(0,0,0); 
+    font-size: 20px;
+    line-height: 24px;
+    margin: 30px auto;
+    text-align: left;
+    width: 800px;
+
+}	
+
+th {
+    background:#777;
+    border-left: 1px solid #555;
+    border-right: 1px solid #777;
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #333;
+    box-shadow: inset 0 1px 0 #999;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 15px;
+    position: relative;
+    text-shadow: 0 1px 0 #000;	
+}
+
+th:after {
+    background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,.08));
+    content: '';
+    display: block;
+    height: 25%;
+    left: 0;
+    margin: 1px 0 0 0;
+    position: absolute;
+    top: 25%;
+    width: 100%;
+}
+
+th:first-child {
+    border-left: 1px solid #777;	
+    box-shadow: inset 1px 1px 0 #999;
+}
+
+th:last-child {
+    box-shadow: inset -1px 1px 0 #999;
+}
+
+td {
+    border-right: 1px solid #fff;
+    border-left: 1px solid #e8e8e8;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 10px 15px;
+    position: relative;
+    transition: all 300ms;
+}
+td input{
+    padding: 10px;
+    width: 100%;
+}
+td select{
+    padding: 10px;
+    width: 100%;
+}
+
+td:first-child {
+    box-shadow: inset 1px 0 0 #fff;
+}	
+
+td:last-child {
+    border-right: 1px solid #e8e8e8;
+    box-shadow: inset -1px 0 0 #fff;
+}	
+
+tr {
+    background: url(https://jackrugile.com/images/misc/noise-diagonal.png);	
+}
+
+tr:nth-child(odd) td {
+    background: #f1f1f1 url(https://jackrugile.com/images/misc/noise-diagonal.png);	
+}
+
+tr:last-of-type td {
+    box-shadow: inset 0 -1px 0 #fff; 
+}
+
+tr:last-of-type td:first-child {
+    box-shadow: inset 1px -1px 0 #fff;
+}	
+
+tr:last-of-type td:last-child {
+    box-shadow: inset -1px -1px 0 #fff;
+}	
+
+
+/*button design*/  
+
+.btn {
+    background: #f3ff4f;
+    background-image: -webkit-linear-gradient(top, #f3ff4f, #ffcd4f);
+    background-image: -moz-linear-gradient(top, #f3ff4f, #ffcd4f);
+    background-image: -ms-linear-gradient(top, #f3ff4f, #ffcd4f);
+    background-image: -o-linear-gradient(top, #f3ff4f, #ffcd4f);
+    background-image: linear-gradient(to bottom, #f3ff4f, #ffcd4f);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #333333;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #f3ff4f;
+    background-image: -webkit-linear-gradient(top, #ffcd4f, #f3ff4f);
+    background-image: -moz-linear-gradient(top, #ffcd4f, #f3ff4f);
+    background-image: -ms-linear-gradient(top, #ffcd4f, #f3ff4f);
+    background-image: -o-linear-gradient(top, #ffcd4f, #f3ff4f);
+    background-image: linear-gradient(to bottom, #ffcd4f,#f3ff4f);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #333333;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+.btn.last {
+    margin-left:10%;
+}
+input.btn {
+    border: none;
+    margin-left:22%;
+    float:left;
+}
+.btn.onePage {
+    float:left;
+    margin-top: -30px;
+    margin-left:38%; 
+}
+
+td a{
+    text-decoration: none !important;
+    color: #0099ff; 
+    font-family: Georgia;
+    text-decoration: none;
+}
+
+td a:hover{
+    color: #009999;
+}
