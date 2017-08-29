@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Life Care: PHP and Mysql mini Project
 
 **coming soon**
@@ -10,3 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+=======
+# DatabaseProject
+
+>>>>>>> master
