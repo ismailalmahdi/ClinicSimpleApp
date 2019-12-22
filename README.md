@@ -1,11 +1,9 @@
 # Life Care: PHP and Mysql mini Project
 
-**coming soon**
-
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. **coming soon**
-
+**This is a simple 1 day project for an assignment during my university**
+**Download and use at your own risk** 
 
 ## License
 
